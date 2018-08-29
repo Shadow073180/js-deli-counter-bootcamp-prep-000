@@ -22,7 +22,6 @@ function currentLine(line){
 
 
 function nowServing(line) {
-  for (let i = 0; i < line.length; i++)
   if (line.length === 0)
     {return 'There is nobody waiting to be served!'}
   else{line.shift(0);
