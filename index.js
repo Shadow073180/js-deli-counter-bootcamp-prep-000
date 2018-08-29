@@ -24,9 +24,10 @@ function currentLine(line){
 function nowServing(line) {
   if (line.length === 0)
     {return 'There is nobody waiting to be served!'}
-  else{
+  else{return 'Currently serving '+line[0]+'.'
+    line.shift(0)
     return ('Currently serving '+line[0]+'.') 
-    delete (line[0])
+    
     
        
   }
