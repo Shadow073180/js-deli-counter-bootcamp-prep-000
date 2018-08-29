@@ -24,8 +24,9 @@ function currentLine(line){
 function nowServing(line) {
   if (line.length === 0)
     {return 'There is nobody waiting to be served!'}
-  else return ('Currently serving '+line[0]+'.')
-    function nowServing(line) {
-      line.shift(0)
+  else {
+    var newArray = line.splice(0, 1)
+   return ('Currently serving '+newArray[0]+'.')
+    
     }
 }
