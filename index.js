@@ -31,6 +31,6 @@ function nowServing(line) {
        
   }
     
-  
+line.shift(0)  
 
 }
